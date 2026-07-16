@@ -13,19 +13,22 @@ const socialLinks = [
 const Footer = () => {
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleDownload = () => {
-    setIsLoading(true);
+const handleDownload = () => {
+  setIsLoading(true);
 
-    setTimeout(() => {
-      const link = document.createElement('a');
-      link.href = '/frontend/public/Moins_resume.pdf';
-      link.download = 'moinuddin_resume.pdf';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      setIsLoading(false);
-    }, 1000);
-  };
+  setTimeout(() => {
+    const link = document.createElement('a');
+
+    link.href = '/Moins_resume.pdf';
+    link.download = 'Moinuddin_Patel_Resume.pdf';
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    setIsLoading(false);
+  }, 1000);
+};
   return (
     <footer className="relative bg-[#f5f5f5] text-[#1a1a1a] font-inter overflow-hidden border-t border-black/5 w-screen min-h-screen flex flex-col justify-center">
 
