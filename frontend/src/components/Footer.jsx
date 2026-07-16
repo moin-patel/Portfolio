@@ -19,7 +19,7 @@ const Footer = () => {
     setTimeout(() => {
       const link = document.createElement('a');
       link.href = '/frontend/public/Moins_resume.pdf';
-      link.download = 'Moinuddin_Resume.pdf';
+      link.download = 'moinuddin_resume.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
