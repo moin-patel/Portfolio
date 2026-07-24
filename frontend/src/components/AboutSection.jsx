@@ -222,7 +222,7 @@ const AboutSection = () => {
 
             {[
               ["5+", "Projects"],
-              ["150+", "DSA Solved"],
+              ["100+", "DSA Solved"],
               ["10+", "Tech stack"],
               ["100%", "Dedication"],
             ].map(([num, label]) => (
