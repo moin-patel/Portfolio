@@ -19,7 +19,7 @@ const handleDownload = () => {
   setTimeout(() => {
     const link = document.createElement('a');
 
-    link.href = '/Moins_resume.pdf';
+    link.href = '/resume.pdf';
     link.download = 'Moinuddin_Patel_Resume.pdf';
 
     document.body.appendChild(link);
