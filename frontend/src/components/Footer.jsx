@@ -20,7 +20,7 @@ const handleDownload = () => {
     const link = document.createElement('a');
 
     link.href = '/moins_resume.pdf';
-    link.download = 'Moinuddin_Patel_Resume.pdf';
+    link.download = 'Moins_Resume.pdf';
 
     document.body.appendChild(link);
     link.click();
